@@ -8,31 +8,35 @@
 </p>
 
 ## 📝 Description
-Api rest for management of students and courses. Using an Apache local server, with Laragon terminal. I create a database in HeidiSQL. This is the BACK-END part of the project.
-Front-end coming up!
+REST API for student and course management. It uses a local Apache server with Laragon and a HeidiSQL database. This project is the BACK-END part of the project
+[academic-vue](https://github.com/EnriqueFerrerMelian/academic-vue).
 
 ## 🌟 Features
-    *List, view profile, add and remove student or course.
+*List, view profile, add and delete students or courses.
 
 ## 🛠 Installation Requirements
-    *Visual Studio Code
-    *Laragon
-    Packages: Axios, fontawesome-free icon package, boostrap.
+*Visual Studio Code or any text editor.
+*Laragon for the local server.
+*Packages:
+    -Axios (for HTTP requests)
+    -Font Awesome (icon pack)
+    -Bootstrap (for frontend design if used in the integration).
 
 ## 💻 Installation
-    Clone this repository to your local machine.
-    Open your copy of 'Android Studio'.
-    Lunch Apache server from Laragon.
+1. Clone this repository to your local machine:
+    git clone https://github.com/EnriqueFerrerMelian/Educational-App-Backend.git
+2. Open the project in Visual Studio Code (or your preferred editor).
+3. Start the Apache server from Laragon and make sure MySQL is also running.
+4. Make sure the database is configured in HeidiSQL (or your favorite SQL manager). Run the database script included in the repository to create the necessary tables.
 
 ## 🤝 Contribution
 We (me) appreciate your contributions! If you want to improve this project, please follow these steps:
-
-    Create a fork of the repository.
-    Create a new branch for your feature: git checkout -b new-feature.
-    Make your changes and commit: git commit -m 'Add new functionality'.
-    Upload your changes: git push origin new-feature.
-    Submit a pull request.
-    If you use this app, please enjoy it.
+1. Create a fork of the repository.
+2. Create a new branch for your feature: git checkout -b new-feature.
+3. Make your changes and commit: git commit -m 'Add new functionality'.
+4. Upload your changes: git push origin new-feature.
+5. Submit a pull request.
+6. If you use this app, please enjoy it.
 
 ## 🐛 Problems
 If you have any problem, let me know. It's quite straight forward.
@@ -41,4 +45,4 @@ If you have any problem, let me know. It's quite straight forward.
 This project is licensed under the MIT License. For details, see the LICENSE.md file. (TBH, I don't think there is any license here).
 
 ## 📧 Contact
-If you have any questions or comments, please feel free to contact us at progranauta@gmail.com I can get hurtful comments, but please, these ones must to be avoided!
+If you have questions or comments, do not hesitate to contact us at progranauta@gmail.com. I appreciate constructive comments and would be happy to receive your suggestions.
